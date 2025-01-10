@@ -22,12 +22,19 @@ document.addEventListener("DOMContentLoaded", async () => {
       return;
     }
 
-    for (const theme in json) {
-      const option = document.createElement("option");
-      option.value = theme;
-      option.innerHTML = theme.charAt(0).toUpperCase() + theme.slice(1);
-      select.appendChild(option);
-    }
+    chrome.storage.local.get("theme", (data) => {
+      for (const theme in json) {
+        const option = document.createElement("option");
+        option.value = theme;
+        option.innerHTML = theme.charAt(0).toUpperCase() + theme.slice(1);
+
+        if (theme === data.theme) {
+          option.selected = true;
+        }
+
+        select.appendChild(option);
+      }
+    });
   } catch (error) {
     console.error(error);
   }
