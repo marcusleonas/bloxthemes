@@ -11,3 +11,15 @@ If you want to request a theme, you can do so by opening an issue.
 ### Umbrellas
 
 ![umbrellas](https://utfs.io/f/9LyUqXIb9OlsszXJQOoNny1ZFStd4jUmrq7cxBIphXkCRKAY)
+
+![bridge](https://shpnjos4je.ufs.sh/f/9LyUqXIb9OlsBkYxG79ZckmlH6X5JPKBtxiNLrhA1YzjwVd7)
+
+![palm trees](https://shpnjos4je.ufs.sh/f/9LyUqXIb9OlsZB7ClutVIjogAxfbz4dvacJ8FnCy9DYruLWT)
+
+![mountains](https://shpnjos4je.ufs.sh/f/9LyUqXIb9Ols4GjBpliSWkcG0Rhqu2lpwiKgjAOnx9ea6m8D)
+
+![forest](https://shpnjos4je.ufs.sh/f/9LyUqXIb9OlsFPRCIeSMOo4SDEZjIJdtNla3kgwrG2hupYn0)
+
+![city lights](https://shpnjos4je.ufs.sh/f/9LyUqXIb9Ols8bP2jMw1Unc7mAMJpB0Zwoq9dhRCF3HTigfk)
+
+![sunset beach](https://shpnjos4je.ufs.sh/f/9LyUqXIb9OlsbXY7VgHoilUGNFXCZ8AnaDpPjJythswRWe9Q)
