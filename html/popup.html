@@ -7,20 +7,24 @@
     <style>
       body {
         font-family: Arial, sans-serif;
-        width: 200px;
+        width: 300px;
+        font-size: 16px;
       }
       select {
         width: 100%;
+        padding: 5px 0;
         margin-bottom: 10px;
       }
       option {
         text-transform: capitalize;
       }
       button {
+        padding: 5px 0;
         width: 100%;
       }
       h2,
-      h3 {
+      h3,
+      p {
         margin: 0;
         padding: 0;
       }
@@ -33,12 +37,21 @@
   <body>
     <h2>BloxThemes</h2>
     <h3>Select a Theme</h3>
+    <p>
+      Request a theme:
+      <a href="https://github.com/marcusleonas/bloxthemes">on github</a>.
+    </p>
     <div class="spacer"></div>
     <select name="themeSelect" id="themeSelect">
       <option value="" disabled>Select a Theme</option>
       <!-- Populated by JS -->
     </select>
     <button id="applyTheme">Apply Theme</button>
+
+    <small
+      >Made with ❤️ by
+      <a href="https://github.com/marcusleonas">flvffywvffy</a></small
+    >
 
     <script src="../js/popup.js"></script>
   </body>
