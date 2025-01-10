@@ -10,4 +10,4 @@ If you want to request a theme, you can do so by opening an issue.
 
 ### Umbrellas
 
-![https://utfs.io/f/9LyUqXIb9OlsszXJQOoNny1ZFStd4jUmrq7cxBIphXkCRKAY]
+![umbrellas](https://utfs.io/f/9LyUqXIb9OlsszXJQOoNny1ZFStd4jUmrq7cxBIphXkCRKAY)
