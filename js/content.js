@@ -11,25 +11,29 @@ function applyTheme(theme) {
 
   // Remove existing iframe
   const existing = document.querySelector("#bloxthemesframe");
-  if (existing) existing.remove();
 
-  const container = document.querySelector("#container-main");
+  if (!existing) {
+    const container = document.querySelector("#container-main");
 
-  // Check if container exists
-  if (!container) return;
+    // Check if container exists
+    if (!container) return;
 
-  const iframe = document.createElement("iframe");
-  iframe.id = "bloxthemesframe";
-  iframe.src = apiUrl + theme;
-  iframe.style.top = "0";
-  iframe.style.left = "0";
-  iframe.style.position = "absolute";
-  iframe.style.width = "100%";
-  iframe.style.height = "100%";
-  iframe.style.zIndex = "-1";
-  iframe.frameBorder = "0";
+    const iframe = document.createElement("iframe");
+    iframe.id = "bloxthemesframe";
+    iframe.src = apiUrl + theme;
+    iframe.style.top = "0";
+    iframe.style.left = "0";
+    iframe.style.position = "absolute";
+    iframe.style.width = "100%";
+    iframe.style.height = "100%";
+    iframe.style.zIndex = "-1";
+    iframe.frameBorder = "0";
 
-  container.appendChild(iframe);
+    container.appendChild(iframe);
+    return;
+  }
+
+  existing.src = apiUrl + theme;
 }
 
 /**
