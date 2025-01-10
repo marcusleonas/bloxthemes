@@ -1,0 +1,22 @@
+{
+  "name": "BloxThemes",
+  "description": "Apply cool backgrounds to roblox!",
+  "version": "1.0",
+
+  "manifest_version": 3,
+
+  "permissions": ["activeTab", "storage"],
+  "background": {
+    "service_worker": "js/background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.roblox.com/*", "*://web.roblox.com/*"],
+      "js": ["js/content.js"]
+    }
+  ],
+
+  "action": {
+    "default_popup": "html/popup.html"
+  }
+}

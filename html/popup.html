@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BloxThemes</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        width: 200px;
+      }
+      select {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      option {
+        text-transform: capitalize;
+      }
+      button {
+        width: 100%;
+      }
+      h2,
+      h3 {
+        margin: 0;
+        padding: 0;
+      }
+      .spacer {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>BloxThemes</h2>
+    <h3>Select a Theme</h3>
+    <div class="spacer"></div>
+    <select name="themeSelect" id="themeSelect">
+      <option value="" disabled>Select a Theme</option>
+      <!-- Populated by JS -->
+    </select>
+    <button id="applyTheme">Apply Theme</button>
+
+    <script src="../js/popup.js"></script>
+  </body>
+</html>
