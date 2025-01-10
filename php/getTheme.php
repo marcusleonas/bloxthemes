@@ -1,5 +1,7 @@
 <?php
 //! written by claude/chatgpt lol
+//! Please note that updating this WILL NOT update the API automatically. I will need to FTP it to my server.
+//! (sorry)
 // Define an array of available themes with corresponding image URLs
 $themes = [
     "umbrellas" => "https://utfs.io/f/9LyUqXIb9OlsszXJQOoNny1ZFStd4jUmrq7cxBIphXkCRKAY"
